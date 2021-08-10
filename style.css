@@ -16,7 +16,7 @@ ul
     color: #0065FC;
     display: flex;
         flex-direction: row;
-         justify-content: flex-end;
+        justify-content: flex-end;
     list-style: none;
 }
 nav a 
@@ -37,5 +37,24 @@ nav li :hover
 {
     color: #0065FC;
     font-weight: bold;
+}
+
+        /* Barre de Recherche */
+
+#Recherche
+{
+    font-weight: bold;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.formulaire 
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    width: 30vw;
+    height: 50px;
+    border-radius: 20px / 10px;
 }
 
