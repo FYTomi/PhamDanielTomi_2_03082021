@@ -73,6 +73,13 @@ nav li :hover
     border-radius: 14px 0 0 14px;  
     text-align: center;
 }
+
+.icone_map:hover
+{
+    background-color: #0065FC;
+    cursor: pointer;
+    color: white;
+}
 .destination
 {
     font-weight: bold;
@@ -88,6 +95,11 @@ nav li :hover
     color: white;
     height: 50px;
     border-radius:0 14px 14px 0;
+}
+
+.research:hover
+{
+    cursor: pointer;
 }
 
     /* Filtres */
