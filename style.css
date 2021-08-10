@@ -122,6 +122,7 @@ nav li :hover
     align-items: center;
     list-style: none;
     border: 3px solid #F2F2F2;
+    border-left: none;
     padding: 0 20px 0 0;
     border-radius: 200px;
     margin-top: 10px;
