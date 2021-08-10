@@ -7,17 +7,17 @@
         
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css" />
-        
         <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Police raleway hébergé par Google Fonts-->
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        
-            <script src="https://kit.fontawesome.com/927e30d3a5.js" crossorigin="anonymous"></script> <!-- Bibliothèque pour les icônes Front Awesome-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/927e30d3a5.js" crossorigin="anonymous"></script> <!-- Bibliothèque pour les icônes Front Awesome-->
         <title>Reservia</title>
         
     </head>
         
-    <body>
+        <body>
+
+            <!-- Header -->
             <header>
                 <img src="images/logo/Reservia.svg" alt="logo"/>
                 
@@ -31,22 +31,33 @@
                 </nav>
                 
                 <!-- Recherche -->
+                    
                 <div id="Recherche">
                     
                     <div class="guide_recherche">
-                    <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
-                    <p>En plein centre ville ou en pleine nature</p> 
+                        <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
+                        <p>En plein centre ville ou en pleine nature</p> 
                     </div>
                 
                     <div class="formulaire">
                         <div class="icone_map"><i class="fas fa-map-marker-alt"></i></div>
                         
                         <form method="post" action="#.php">
-                        <input class="destination" type="search" name="destination" value="Marseille,France" />
-                        <input class="research" type="submit" value="Rechercher" />
+                            <input class="destination" type="search" name="destination" value="Marseille,France" />
+                            <input class="research" type="submit" value="Rechercher" />
                         </form>
                     </div>
+                
+                </div>
 
+                <!--Filtres-->
+
+                <div id="filtres">
+                    <span> Filtres </span>
+                    <div class="economy"><i class="fas fa-money-bill-wave"></i><p> Économique </p> </div>
+                    <div class="family"><i class="fas fa-child"></i> <p> Familial </p> </div>
+                    <div class="romantic"><i class="fas fa-heart"></i> <p> Romantique</p> </div>
+                    <div class="animals"><i class="fas fa-dog"></i> <p>Animaux autorisés</p></div>
                 </div>
             </header>
 
