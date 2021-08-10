@@ -125,14 +125,15 @@ nav li :hover
     border-radius: 200px;
     margin-top: 10px;
     margin-left: 25px;
-}
+    }
 
 .ifiltre  {
     background-color:rgb(222, 235, 255);
     color: #0065FC;
     border-radius: 50%;
-    padding: 25px;
+    padding: 10px;
     margin-right: 25px;   
+    font-size: 25px;
 }
 #filtres ul li:hover
 {
