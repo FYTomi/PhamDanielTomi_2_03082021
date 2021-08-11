@@ -138,7 +138,32 @@ nav li :hover
     margin-right: 25px;   
     font-size: 25px;
 }
+
 #filtres ul li:hover
 {
 background-color: #F2F2F2 ;
+}
+
+#info_recherche
+{
+    display: flex;
+    align-items: center;
+}
+#info_recherche .info {
+    display: inline;
+    margin-left: 15px; 
+     
+}
+
+#info_recherche .icone_info 
+{
+    color: #0065FC;
+    border: 3px solid #F2F2F2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 1px;
 }
