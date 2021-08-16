@@ -183,9 +183,9 @@ footer {
  }
 
  footer li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-left: 30px;
   }
 
  .list_footer {
@@ -196,3 +196,37 @@ footer {
  footer a:hover{
    color: #0065fc;
  }
+
+ /* Hébergements Marseille */
+
+ .heber_marseille {
+   display: flex;
+   justify-content: space-around;     
+}
+
+.hebergements_principaux {
+   margin-left: 40px;
+   background-color: #F2F2F2;
+   border-radius: 20px;
+   width: 60%;    
+}
+
+.firstline_hotel img {
+   width: 100%;
+   height: 8vw;
+   object-fit: cover;
+   border-radius: 20px 20px 0 0;
+}
+
+.hebergements_principaux article {
+  background-color: white;
+  border: 4px solid transparent;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px #e2e2e2;
+  width: 30%;
+  height: 13.5vw;
+}
+
+.first_hotel_line {
+  display: flex;
+}
