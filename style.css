@@ -208,7 +208,12 @@ footer {
    margin-left: 40px;
    background-color: #F2F2F2;
    border-radius: 20px;
-   width: 60%;    
+   width: 60%;
+   margin-bottom: 30px;   
+}
+.hebergements_principaux h2 {
+  margin-left: 50px;
+  padding-top: 20px;
 }
 
 .firstline_hotel img {
