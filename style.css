@@ -201,7 +201,7 @@ footer {
 
  .heber_marseille {
    display: flex;
-   justify-content: space-around;     
+   justify-content: space-around; 
 }
 
 .hebergements_principaux {
@@ -231,7 +231,7 @@ footer {
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
   width: 30%;
-  height: 13.5vw;
+  height: 255px;
 }
 
 .first_hotel_line, .second_hotel_line {
@@ -247,4 +247,24 @@ footer {
 .empty { 
 color: rgb(217,217,217);
 
+}
+
+.first_hotel_line h3 {
+  margin: 5px 0 0 10px;
+}
+
+.first_hotel_line p {
+  margin: 5px 0 0 10px;
+}
+
+.second_hotel_line h3 {
+  margin: 5px 0 0 10px;
+}
+
+.second_hotel_line p {
+  margin: 5px 0 0 10px;
+}
+
+.rating {
+  margin: 5px 0 0 10px;
 }
