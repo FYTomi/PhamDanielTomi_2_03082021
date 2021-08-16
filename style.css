@@ -244,11 +244,11 @@ footer {
   margin: 10px;
 }
 
-.rating {
+.full {
   color: #0065fc;
   }
 
-.far { 
-color: #F2F2F2;
+.empty { 
+color: rgb(217,217,217);
 
 }
