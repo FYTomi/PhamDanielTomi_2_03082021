@@ -234,14 +234,10 @@ footer {
   height: 13.5vw;
 }
 
-.first_hotel_line {
+.first_hotel_line, .second_hotel_line {
+  justify-content:space-around;
   display: flex;
-  margin: 10px;
-}
-
-.second_hotel_line {
-  display: flex;
-  margin: 10px;
+  margin: 30px;
 }
 
 .full {
