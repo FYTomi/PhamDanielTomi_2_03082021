@@ -316,11 +316,11 @@ footer a:hover {
   display: flex;
 }
 
-.column_hotel div {
+.column_hotel {
   display: flex;
 }
 
 .populaire .image_info {
   display: flex;
-  
+  flex-direction: column;
 }
