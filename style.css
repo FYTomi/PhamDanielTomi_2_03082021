@@ -336,3 +336,30 @@ footer a:hover {
   margin: 10px 0 0 10px;
 }
 
+/* Activités Marseille */
+
+
+#activites {
+  margin-left: 30px;
+}
+
+.activity {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activity article {
+  box-shadow: 1px 1px 8px #e2e2e2;
+  border-radius: 20px 20px 0 0;
+
+}
+.activity img {
+  border-radius: 20px 20px 0 0;
+}
+
+article .small_pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
