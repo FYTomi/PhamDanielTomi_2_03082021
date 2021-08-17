@@ -236,7 +236,7 @@ footer {
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
   width: 30%;
-  height: 255px;
+  height: 240px;
 }
 
 .first_hotel_line, .second_hotel_line {
@@ -272,4 +272,8 @@ color: rgb(217,217,217);
 
 .rating {
   margin: 5px 0 0 10px;
+}
+
+#show_more {
+ margin: 40px;
 }
