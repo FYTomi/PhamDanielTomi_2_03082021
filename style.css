@@ -232,7 +232,7 @@ footer a:hover {
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
   width: 30%;
-  height: 240px;
+  height: auto;
 }
 
 .first_hotel_line,
@@ -279,7 +279,6 @@ footer a:hover {
 .populaire {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 30%;
@@ -294,10 +293,7 @@ footer a:hover {
   padding-top: 20px;
 }
 
-.populaire article {
-  display: flex;
-  flex-wrap: nowrap;
-}
+
 .column_hotel img {
   width: 9vw;
   height: 9vw;
@@ -310,17 +306,30 @@ footer a:hover {
   border: 4px solid transparent;
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
-  width: 72%;
+  width: 70%;
   height: 10vw;
-  margin: 15px;
-  display: flex;
+  margin: 10px;
+  
 }
 
-.column_hotel {
+.column_hotel a {
   display: flex;
+  margin: 10px;
 }
 
 .populaire .image_info {
   display: flex;
   flex-direction: column;
 }
+
+.populaire h2 {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.populaire {
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+
