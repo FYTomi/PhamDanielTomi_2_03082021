@@ -355,6 +355,7 @@ footer a:hover {
 }
 .activity img {
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 article .small_pic {
