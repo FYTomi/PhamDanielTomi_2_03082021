@@ -363,10 +363,10 @@ footer a:hover {
   object-fit: cover;
 }
 
-article .small_pic {
+.small_pic {
   display: flex;
   flex-direction: column;
-  
+  justify-content: space-around;
 }
 
 .vieux_port img {
