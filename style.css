@@ -87,6 +87,7 @@ nav li a:hover {
   height: 50px;
 }
 .research {
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   border: none;
   background-color: #0065fc;
@@ -139,6 +140,7 @@ nav li a:hover {
   display: flex;
   align-items: center;
   margin-left: 30px;
+  padding-bottom: 20px;
 }
 #info_recherche .info {
   display: inline;
@@ -187,6 +189,7 @@ footer li {
 
 .list_footer {
   width: 50%;
+  margin-left: 10px;
 }
 
 footer a:hover {
@@ -201,7 +204,7 @@ footer a:hover {
 }
 
 .hebergements_principaux {
-  margin-left: 40px;
+  margin-left: 10px;
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 60%;
@@ -340,7 +343,7 @@ footer a:hover {
 
 
 #activites {
-  margin-left: 30px;
+  margin-left: 10px;
   margin-bottom: 30px;
 }
 
