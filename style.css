@@ -340,8 +340,16 @@ footer a:hover {
 }
 
 .image_info .rating {
-  margin: 10px 0 0 10px;
+  margin: 45px 0 0 15px;
 }
+
+.column_hotel h3 {
+  margin: 7px 0 4px 15px;
+}
+.column_hotel p{
+  margin: 2px 0 5px 15px;
+}
+
 
 /* Activités Marseille */
 
