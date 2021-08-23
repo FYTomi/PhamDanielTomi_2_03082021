@@ -415,3 +415,41 @@ footer a:hover {
 article h3 {
   margin: 15px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1367px) {
+
+  .heber_marseille article {
+    height: 18vw;
+    width: 17vw;
+    margin: 10px;
+}
+
+.column_hotel {
+    height: 15vw;
+}
+
+.column_hotel img {
+    height: 100%;
+}
+
+.populaire .rating {
+    margin: 0 0 0 15px;
+}
+
+.activites article {
+    width: 19vw;
+    height: auto;
+}
+
+.activites img {
+    width: 100%;
+}
+
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 320px) {
+
+  }
