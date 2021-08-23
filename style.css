@@ -23,6 +23,7 @@ ul {
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
+  padding-left: 0px;
 }
 nav a {
   padding-right: 20px;
@@ -85,6 +86,7 @@ nav li a:hover {
   border: none;
   padding-left: 10px;
   height: 50px;
+  width: 200px;
 }
 .research {
   font-family: "Raleway", sans-serif;
@@ -94,6 +96,7 @@ nav li a:hover {
   color: white;
   height: 50px;
   border-radius: 0 14px 14px 0;
+  width: 100px;
 }
 
 .research:hover {
@@ -418,7 +421,7 @@ article h3 {
 
 /* Media Queries */
 
-@media screen and (max-width: 1367px) {
+@media screen and (max-width: 1440px) {
 
   .heber_marseille article {
     height: 18vw;
