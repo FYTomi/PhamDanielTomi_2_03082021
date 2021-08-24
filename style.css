@@ -483,6 +483,17 @@ nav li a:hover {
   border-top: none;
 }
 
+#filtres {
+  margin-top: 20px;
+}
+#filtres span+ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+
+
 #filtres ul {
   display: flex;
   flex-wrap: wrap;
@@ -491,6 +502,19 @@ nav li a:hover {
 #info_recherche {
 width: 100%;
 margin-left: 20px;
+}
+
+.heber_marseille{
+  flex-direction: column;
+}
+
+.hebergements_principaux:nth-child(1) {
+order: 2;
+}
+
+.populaire {
+  width: 100%;
+  height: auto;
 }
 
 footer {
