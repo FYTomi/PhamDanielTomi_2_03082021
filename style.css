@@ -515,6 +515,13 @@ order: 2;
 .populaire {
   width: 100%;
   height: auto;
+  margin-left: 0;
+}
+
+.heber_marseille article {
+  width: 80%;
+  height: auto;
+  margin-left: 30px;
 }
 
 footer {
