@@ -17,7 +17,7 @@ nav {
   margin: 30px;
 }
 
-ul {
+header ul {
   color: #0065fc;
   display: flex;
   flex-direction: row;
@@ -451,6 +451,49 @@ article h3 {
 }
 
 /* Smartphones (portrait) */
-@media only screen and (max-width : 320px) {
+@media screen and (max-width : 414px) {
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+nav ul{
+  width: 100%;
+}
+
+nav .navigateur a{
+  justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #e2e2e2;
+}
+
+
+.inscription {
+  position: absolute;
+  top: 47px;
+  right: 0px; 
+  border-bottom: none;
+}
+nav li a:hover {
+  color: #0065fc;
+  border-bottom: 4px solid #0065fc;
+  border-top: none;
+}
+
+#filtres ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#info_recherche {
+width: 100%;
+margin-left: 20px;
+}
+
+footer {
+  flex-direction: column;
+}
   }
