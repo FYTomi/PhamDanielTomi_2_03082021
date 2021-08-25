@@ -526,7 +526,8 @@ order: 2;
 .populaire {
   width: 100%;
   height: auto;
-  margin-left: 0;
+  margin-left: 10px;
+  padding-bottom: 40px;
 }
 
 .hebergements_principaux h2 {
