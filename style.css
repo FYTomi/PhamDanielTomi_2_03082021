@@ -574,8 +574,28 @@ order: 2;
   width: 90vw;
   height: 30vw;
 }
+.activity{
+  display: flex;
+  flex-direction: column;
+}
+#show_more {
+  margin: 20px;
+}
+
+.activity article {
+  margin-bottom: 20px;
+}
+
+.activity img {
+  width: 98vw;
+  height: 38vw;
+}
 
 footer {
   flex-direction: column;
+}
+
+footer h3 {
+width: 100%;
 }
   }
