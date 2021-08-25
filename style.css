@@ -794,3 +794,73 @@ width: 100%;
 }
 
 }
+
+/* Tablette (ipad) format portrait */
+
+@media screen and (max-width : 1024px) {
+
+  .heber_marseille {
+    flex-direction: column;
+  }
+  
+  .hebergements_principaux {
+    width: 100%;
+
+  }
+  
+  .hebergements_principaux:nth-child(1) {
+    order: 2;
+    }
+
+    .populaire {
+      width: 100%;
+      height: auto;
+      margin-left: 10px;
+      padding-bottom: 40px;
+    }
+    
+    .hebergements_principaux h2 {
+      margin-left: 20px;
+    }
+    
+    .heber_marseille article {
+      width: 80%;
+      height: auto;
+    }
+    
+    .column_hotel img {
+      height: 25vw;
+      width: 25vw;
+    }
+    
+    .populaire .rating {
+      margin: 30px 0 0 15px;
+    }
+    
+    .hebergements_principaux {
+      background-color: white;
+    }
+    
+    .first_hotel_line, .second_hotel_line {
+      display: flex;
+      
+      justify-content: space-around;
+      margin: 0px;
+    }
+    
+    .firstline_hotel img {
+      width: 30vw;
+      height: 15vw;
+    }
+    
+    .heber_marseille article {
+      width: 90vw;
+      height: auto;
+    }
+    
+    .secondline_hotel img {
+      width: 30vw;
+      height: 15vw;
+    }
+
+  }
