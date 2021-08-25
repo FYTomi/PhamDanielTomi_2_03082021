@@ -690,6 +690,7 @@ nav li a:hover {
   list-style: none;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-left: -30px;
 }
 
 #info_recherche {
