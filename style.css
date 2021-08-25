@@ -689,6 +689,7 @@ nav li a:hover {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 #info_recherche {
