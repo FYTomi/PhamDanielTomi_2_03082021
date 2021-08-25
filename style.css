@@ -584,11 +584,17 @@ order: 2;
 
 .activity article {
   margin-bottom: 20px;
+  width: 90vw;
+  margin-left: 10px;
 }
 
 .activity img {
-  width: 98vw;
-  height: 38vw;
+  width: 90vw;
+  height: 30vw;
+}
+
+#activites h2 {
+  margin-left: 10px;
 }
 
 footer {
@@ -597,5 +603,10 @@ footer {
 
 footer h3 {
 width: 100%;
+}
+
+.list_footer {
+  width: 100%;
+  margin-left: 0px;
 }
   }
