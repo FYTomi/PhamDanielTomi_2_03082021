@@ -460,6 +460,10 @@ nav {
   
 }
 
+header ul {
+  justify-content: space-between;
+}
+
 nav ul{
   width: 100%;
 }
@@ -511,7 +515,6 @@ nav li a:hover {
   flex-direction: column;
 }
 #info_recherche {
-width: 100%;
 margin-left: 20px;
 }
 
