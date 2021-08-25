@@ -451,6 +451,7 @@ article h3 {
 }
 
 /* Smartphones (portrait) */
+
 @media screen and (max-width : 414px) {
 
 nav {
@@ -616,3 +617,178 @@ width: 100%;
   margin-left: 0px;
 }
   }
+
+/* Tablette (ipad) format portrait */
+
+@media screen and (max-width : 768px) {
+
+.inscription {
+  position: absolute;
+  top: 52px;
+  right: 0px; 
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px;
+}
+
+nav img {
+padding-left: 30px;
+padding-bottom: 20px;
+
+}
+
+header ul {
+  justify-content: space-around;
+}
+
+nav ul{
+  width: 100%;
+  border-bottom: 4px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+
+nav .navigateur a{
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+
+.inscription {
+  position: absolute;
+  top: 47px;
+  right: 0px; 
+  border-bottom: none;
+}
+nav li a:hover {
+  color: #0065fc;
+  border-bottom: 4px solid #0065fc;
+  border-top: none;
+}
+
+.guide_recherche h1 {
+  margin-left: -15px;
+}
+.guide_recherche p{
+  margin-left: -15px;
+}
+
+.formulaire  {
+  margin-left: -15px;
+}
+
+#filtres {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#filtres span+ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+#info_recherche {
+margin-left: 20px;
+}
+
+.heber_marseille{
+  flex-direction: column;
+}
+
+.hebergements_principaux:nth-child(1) {
+order: 2;
+}
+
+.populaire {
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  padding-bottom: 40px;
+}
+
+.hebergements_principaux h2 {
+  margin-left: 20px;
+}
+
+.heber_marseille article {
+  width: 80%;
+  height: auto;
+}
+
+.column_hotel img {
+  height: 35vw;
+  width: 35vw;
+}
+
+.populaire .rating {
+  margin: 30px 0 0 15px;
+}
+
+.hebergements_principaux {
+  background-color: white;
+}
+
+.first_hotel_line, .second_hotel_line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.firstline_hotel img {
+  width: 90vw;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.heber_marseille article {
+  width: 90vw;
+  height: auto;
+}
+
+.secondline_hotel img {
+  width: 90vw;
+  height: 30vw;
+}
+.activity{
+  display: flex;
+  flex-direction: column;
+}
+#show_more {
+  margin: 20px;
+}
+
+.activity article {
+  margin-bottom: 20px;
+  width: 90vw;
+  margin-left: 10px;
+}
+
+.activity img {
+  width: 90vw;
+  height: 30vw;
+}
+
+#activites h2 {
+  margin-left: 10px;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer h3 {
+width: 100%;
+}
+
+.list_footer {
+  width: 100%;
+  margin-left: 0px;
+}
+
+}
