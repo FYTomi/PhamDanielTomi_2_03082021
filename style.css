@@ -705,6 +705,10 @@ margin-left: 20px;
 order: 2;
 }
 
+.first_line_popular {
+  width: 90%;
+}
+
 .populaire {
   width: 100%;
   height: auto;
@@ -799,6 +803,11 @@ width: 100%;
 
 @media screen and (max-width : 1024px) {
 
+
+  .first_line_popular {
+    width: 90%;
+  }
+  
   .heber_marseille {
     flex-direction: column;
   }
