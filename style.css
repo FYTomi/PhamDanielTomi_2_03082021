@@ -461,17 +461,18 @@ nav {
 }
 
 header ul {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 nav ul{
   width: 100%;
+  border-bottom: 4px solid #e2e2e2;
+  padding-bottom: 10px;
 }
 
 nav .navigateur a{
   justify-content: center;
   padding-bottom: 10px;
-  border-bottom: 4px solid #e2e2e2;
 }
 
 
@@ -500,6 +501,8 @@ nav li a:hover {
 
 #filtres {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 #filtres span+ul {
   display: flex;
@@ -507,13 +510,6 @@ nav li a:hover {
   flex-wrap: wrap;
 }
 
-
-
-#filtres ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
 #info_recherche {
 margin-left: 20px;
 }
