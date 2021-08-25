@@ -373,6 +373,7 @@ footer a:hover {
 .activity article {
   box-shadow: 1px 1px 8px #e2e2e2;
   border-radius: 20px 20px 20px 20px;
+  width: 20vw;
 
 }
 .activity img {
