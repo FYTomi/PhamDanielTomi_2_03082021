@@ -882,3 +882,13 @@ width: 100%;
   height: 30vw;
 }
 }
+
+@media screen and (max-width: 375px) {
+#filtres span+ul {
+    margin-left: -40px;
+}
+
+.filtre {
+  margin-right: 10px;
+  }
+}
