@@ -423,7 +423,6 @@ article h3 {
 @media screen and (max-width: 1440px) {
 
   .heber_marseille article {
-    height: 18vw;
     width: 17vw;
     margin: 10px;
 }
@@ -435,7 +434,15 @@ article h3 {
 .column_hotel img {
     height: 100%;
 }
+.populaire article {
+height: 10vw;
+width: 27vw;
+}
 
+.populaire img {
+  height: 10vw;
+  width: 10vw;
+}
 .populaire .rating {
     margin: 0 0 0 15px;
 }
