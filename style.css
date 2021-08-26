@@ -305,7 +305,6 @@ footer a:hover {
   font-size: 1.5em;
 }
 
-
 .column_hotel img {
   width: 9vw;
   height: 9vw;
@@ -321,7 +320,6 @@ footer a:hover {
   width: 85%;
   height: auto;
   margin: 15px 15px 15px 35px;
-  
 }
 
 .column_hotel a {
@@ -348,13 +346,11 @@ footer a:hover {
 .column_hotel h3 {
   margin: 15px 0 4px 15px;
 }
-.column_hotel p{
+.column_hotel p {
   margin: 10px 0 5px 15px;
 }
 
-
 /* Activités Marseille */
-
 
 #activites {
   margin-left: 10px;
@@ -374,7 +370,6 @@ footer a:hover {
   box-shadow: 1px 1px 8px #e2e2e2;
   border-radius: 20px 20px 20px 20px;
   width: 20vw;
-
 }
 .activity img {
   border-radius: 20px 20px 0 0;
@@ -421,474 +416,465 @@ article h3 {
 /* Media Queries */
 
 @media screen and (max-width: 1440px) {
-
   .heber_marseille article {
     width: 17vw;
     margin: 10px;
-}
+  }
 
-.column_hotel {
+  .column_hotel {
     height: 15vw;
-}
+  }
 
-.column_hotel img {
+  .column_hotel img {
     height: 100%;
-}
-.populaire article {
-height: 10vw;
-width: 27vw;
-}
+  }
+  .populaire article {
+    height: 10vw;
+    width: 27vw;
+  }
 
-.populaire img {
-  height: 10vw;
-  width: 10vw;
-}
-.populaire .rating {
+  .populaire img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .populaire .rating {
     margin: 0 0 0 15px;
-}
+  }
 
-.activites article {
+  .activites article {
     width: 19vw;
     height: auto;
-}
+  }
 
-.activites img {
+  .activites img {
     width: 100%;
-}
-
+  }
 }
 
 /* Smartphones (portrait) */
 
-@media screen and (max-width : 414px) {
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 30px 0px 30px 0px;
-}
-
-nav img {
-padding-left: 30px;
-padding-bottom: 20px;
-
-}
-
-header ul {
-  justify-content: space-around;
-}
-
-nav ul{
-  width: 100%;
-  border-bottom: 4px solid #e2e2e2;
-  padding-bottom: 10px;
-}
-
-nav .navigateur a{
-  justify-content: center;
-  padding-bottom: 10px;
-}
-
-
-.inscription {
-  position: absolute;
-  top: 47px;
-  right: 0px; 
-  border-bottom: none;
-}
-nav li a:hover {
-  color: #0065fc;
-  border-bottom: 4px solid #0065fc;
-  border-top: none;
-}
-
-.guide_recherche h1 {
-  margin-left: -15px;
-}
-.guide_recherche p{
-  margin-left: -15px;
-}
-
-.formulaire  {
-  margin-left: -15px;
-}
-
-#filtres {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-#filtres span+ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-}
-
-#info_recherche {
-margin-left: 20px;
-}
-
-.heber_marseille{
-  flex-direction: column;
-}
-
-.hebergements_principaux:nth-child(1) {
-order: 2;
-}
-
-.populaire {
-  width: 100%;
-  height: auto;
-  margin-left: 10px;
-  padding-bottom: 40px;
-}
-
-.hebergements_principaux h2 {
-  margin-left: 20px;
-}
-
-.heber_marseille article {
-  width: 80%;
-  height: auto;
-}
-
-.column_hotel img {
-  height: 35vw;
-  width: 35vw;
-}
-
-.populaire .rating {
-  margin: 30px 0 0 15px;
-}
-
-.hebergements_principaux {
-  background-color: white;
-}
-
-.first_hotel_line, .second_hotel_line {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 0px;
-}
-
-.firstline_hotel img {
-  width: 90vw;
-  height: 30vw;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
-
-.heber_marseille article {
-  width: 90vw;
-  height: auto;
-}
-
-.secondline_hotel img {
-  width: 90vw;
-  height: 30vw;
-}
-.activity{
-  display: flex;
-  flex-direction: column;
-}
-#show_more {
-  margin: 20px;
-}
-
-.activity article {
-  margin-bottom: 20px;
-  width: 90vw;
-  margin-left: 10px;
-}
-
-.activity img {
-  width: 90vw;
-  height: 30vw;
-}
-
-#activites h2 {
-  margin-left: 10px;
-}
-
-footer {
-  flex-direction: column;
-}
-
-footer h3 {
-width: 100%;
-}
-
-.list_footer {
-  width: 100%;
-  margin-left: 0px;
-}
+@media screen and (max-width: 414px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
   }
 
-/* Tablette (ipad) format portrait */
+  nav img {
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
 
-@media screen and (max-width : 768px) {
+  header ul {
+    justify-content: space-around;
+  }
 
-.inscription {
-  position: absolute;
-  top: 52px;
-  right: 0px; 
-}
+  nav ul {
+    width: 100%;
+    border-bottom: 4px solid #e2e2e2;
+    padding-bottom: 10px;
+  }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 30px 0px 30px 0px;
-}
+  nav .navigateur a {
+    justify-content: center;
+    padding-bottom: 10px;
+  }
 
-nav img {
-padding-left: 30px;
-padding-bottom: 20px;
+  .inscription {
+    position: absolute;
+    top: 47px;
+    right: 0px;
+    border-bottom: none;
+  }
+  nav li a:hover {
+    color: #0065fc;
+    border-bottom: 4px solid #0065fc;
+    border-top: none;
+  }
 
-}
+  .guide_recherche h1 {
+    margin-left: -15px;
+  }
+  .guide_recherche p {
+    margin-left: -15px;
+  }
 
-header ul {
-  justify-content: space-around;
-}
+  .formulaire {
+    margin-left: -15px;
+  }
 
-nav ul{
-  width: 100%;
-  border-bottom: 4px solid #e2e2e2;
-  padding-bottom: 10px;
-}
+  #filtres {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #filtres span + ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
 
-nav .navigateur a{
-  justify-content: center;
-  padding-bottom: 10px;
-}
+  #info_recherche {
+    margin-left: 20px;
+  }
 
+  .heber_marseille {
+    flex-direction: column;
+  }
 
-.inscription {
-  position: absolute;
-  top: 47px;
-  right: 0px; 
-  border-bottom: none;
-}
-nav li a:hover {
-  color: #0065fc;
-  border-bottom: 4px solid #0065fc;
-  border-top: none;
-}
+  .hebergements_principaux:nth-child(1) {
+    order: 2;
+  }
 
-.guide_recherche h1 {
-  margin-left: -15px;
-}
-.guide_recherche p{
-  margin-left: -15px;
-}
+  .populaire {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    padding-bottom: 40px;
+  }
 
-.formulaire  {
-  margin-left: -15px;
-}
+  .hebergements_principaux h2 {
+    margin-left: 20px;
+  }
 
-#filtres {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-#filtres span+ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: -30px;
-}
+  .heber_marseille article {
+    width: 80%;
+    height: auto;
+  }
 
-#info_recherche {
-margin-left: 20px;
-}
+  .column_hotel img {
+    height: 35vw;
+    width: 35vw;
+  }
 
-.heber_marseille{
-  flex-direction: column;
-}
+  .populaire .rating {
+    margin: 30px 0 0 15px;
+  }
 
-.hebergements_principaux:nth-child(1) {
-order: 2;
-}
+  .hebergements_principaux {
+    background-color: white;
+  }
 
-.first_line_popular {
-  width: 90%;
-}
+  .first_hotel_line,
+  .second_hotel_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+  }
 
-.populaire {
-  width: 100%;
-  height: auto;
-  margin-left: 10px;
-  padding-bottom: 40px;
-}
+  .firstline_hotel img {
+    width: 90vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
 
-.hebergements_principaux h2 {
-  margin-left: 20px;
-}
+  .heber_marseille article {
+    width: 90vw;
+    height: auto;
+  }
 
-.heber_marseille article {
-  width: 80%;
-  height: auto;
-}
+  .secondline_hotel img {
+    width: 90vw;
+    height: 30vw;
+  }
+  .activity {
+    display: flex;
+    flex-direction: column;
+  }
+  #show_more {
+    margin: 20px;
+  }
 
-.column_hotel img {
-  height: 35vw;
-  width: 35vw;
-}
+  .activity article {
+    margin-bottom: 20px;
+    width: 90vw;
+    margin-left: 10px;
+  }
 
-.populaire .rating {
-  margin: 30px 0 0 15px;
-}
+  .activity img {
+    width: 90vw;
+    height: 30vw;
+  }
 
-.hebergements_principaux {
-  background-color: white;
-}
+  #activites h2 {
+    margin-left: 10px;
+  }
 
-.first_hotel_line, .second_hotel_line {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 0px;
-}
+  footer {
+    flex-direction: column;
+  }
 
-.firstline_hotel img {
-  width: 90vw;
-  height: 30vw;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
+  footer h3 {
+    width: 100%;
+  }
 
-.heber_marseille article {
-  width: 90vw;
-  height: auto;
-}
-
-.secondline_hotel img {
-  width: 90vw;
-  height: 30vw;
-}
-.activity{
-  display: flex;
-  flex-direction: column;
-}
-#show_more {
-  margin: 20px;
-}
-
-.activity article {
-  margin-bottom: 20px;
-  width: 90vw;
-  margin-left: 10px;
-}
-
-.activity img {
-  width: 90vw;
-  height: 30vw;
-}
-
-#activites h2 {
-  margin-left: 10px;
-}
-
-footer {
-  flex-direction: column;
-}
-
-footer h3 {
-width: 100%;
-}
-
-.list_footer {
-  width: 100%;
-  margin-left: 0px;
-}
-
+  .list_footer {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 
 /* Tablette (ipad) format portrait */
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 768px) {
+  .inscription {
+    position: absolute;
+    top: 52px;
+    right: 0px;
+  }
 
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+  }
+
+  nav img {
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+
+  header ul {
+    justify-content: space-around;
+  }
+
+  nav ul {
+    width: 100%;
+    border-bottom: 4px solid #e2e2e2;
+    padding-bottom: 10px;
+  }
+
+  nav .navigateur a {
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .inscription {
+    position: absolute;
+    top: 47px;
+    right: 0px;
+    border-bottom: none;
+  }
+  nav li a:hover {
+    color: #0065fc;
+    border-bottom: 4px solid #0065fc;
+    border-top: none;
+  }
+
+  .guide_recherche h1 {
+    margin-left: -15px;
+  }
+  .guide_recherche p {
+    margin-left: -15px;
+  }
+
+  .formulaire {
+    margin-left: -15px;
+  }
+
+  #filtres {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #filtres span + ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -30px;
+  }
+
+  #info_recherche {
+    margin-left: 20px;
+  }
+
+  .heber_marseille {
+    flex-direction: column;
+  }
+
+  .hebergements_principaux:nth-child(1) {
+    order: 2;
+  }
 
   .first_line_popular {
     width: 90%;
   }
-  
+
+  .populaire {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    padding-bottom: 40px;
+  }
+
+  .hebergements_principaux h2 {
+    margin-left: 20px;
+  }
+
+  .heber_marseille article {
+    width: 80%;
+    height: auto;
+  }
+
+  .column_hotel img {
+    height: 35vw;
+    width: 35vw;
+  }
+
+  .populaire .rating {
+    margin: 30px 0 0 15px;
+  }
+
+  .hebergements_principaux {
+    background-color: white;
+  }
+
+  .first_hotel_line,
+  .second_hotel_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+  }
+
+  .firstline_hotel img {
+    width: 90vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .heber_marseille article {
+    width: 90vw;
+    height: auto;
+  }
+
+  .secondline_hotel img {
+    width: 90vw;
+    height: 30vw;
+  }
+  .activity {
+    display: flex;
+    flex-direction: column;
+  }
+  #show_more {
+    margin: 20px;
+  }
+
+  .activity article {
+    margin-bottom: 20px;
+    width: 90vw;
+    margin-left: 10px;
+  }
+
+  .activity img {
+    width: 90vw;
+    height: 30vw;
+  }
+
+  #activites h2 {
+    margin-left: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer h3 {
+    width: 100%;
+  }
+
+  .list_footer {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+/* Tablette (ipad) format portrait */
+
+@media screen and (max-width: 1024px) {
+  .first_line_popular {
+    width: 90%;
+  }
+
   .heber_marseille {
     flex-direction: column;
   }
-  
+
   .hebergements_principaux {
     width: 100%;
-
   }
-  
+
   .hebergements_principaux:nth-child(1) {
     order: 2;
-    }
+  }
 
-    .populaire {
-  width: 100%;
-  height: auto;
-  margin-left: 10px;
-  padding-bottom: 40px;
-}
+  .populaire {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    padding-bottom: 40px;
+  }
 
-.hebergements_principaux h2 {
-  margin-left: 20px;
-}
+  .hebergements_principaux h2 {
+    margin-left: 20px;
+  }
 
-.heber_marseille article {
-  width: 80%;
-  height: auto;
-}
+  .heber_marseille article {
+    width: 80%;
+    height: auto;
+  }
 
-.column_hotel img {
-  height: 35vw;
-  width: 35vw;
-}
+  .column_hotel img {
+    height: 35vw;
+    width: 35vw;
+  }
 
-.populaire .rating {
-  margin: 30px 0 0 15px;
-}
+  .populaire .rating {
+    margin: 30px 0 0 15px;
+  }
 
-.hebergements_principaux {
-  background-color: white;
-}
+  .hebergements_principaux {
+    background-color: white;
+  }
 
-.first_hotel_line, .second_hotel_line {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 0px;
-}
+  .first_hotel_line,
+  .second_hotel_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+  }
 
-.firstline_hotel img {
-  width: 90vw;
-  height: 30vw;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
+  .firstline_hotel img {
+    width: 90vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
 
-.heber_marseille article {
-  width: 90vw;
-  height: auto;
-}
+  .heber_marseille article {
+    width: 90vw;
+    height: auto;
+  }
 
-.secondline_hotel img {
-  width: 90vw;
-  height: 30vw;
-}
+  .secondline_hotel img {
+    width: 90vw;
+    height: 30vw;
+  }
 }
 
 @media screen and (max-width: 375px) {
-#filtres span+ul {
+  #filtres span + ul {
     margin-left: -40px;
-}
+  }
 
-.filtre {
-  margin-right: 10px;
+  .filtre {
+    margin-right: 10px;
   }
 }
