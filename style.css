@@ -417,7 +417,7 @@ article h3 {
   margin: 15px;
 }
 
-/* Media Queries */
+        /* MEDIA QUERIES */
 
 @media screen and (max-width: 1440px) {
   .heber_marseille article {
@@ -894,6 +894,8 @@ article h3 {
   }
 }
 
+/* Smartphone largeur 375px */
+
 @media screen and (max-width: 375px) {
   #filtres span + ul {
     margin-left: -40px;
@@ -909,4 +911,21 @@ article h3 {
   .populaire .rating {
     margin: 20px 0 0 15px;
   }
+}
+
+/* Smartphone largeur 320px */
+
+@media screen and (max-width: 320px) {
+
+  .column_hotel h3 {
+    margin: 10px 0 5px 10px;
+  }
+
+  .column_hotel p {
+    margin: 10px 0 5px 10px;
+}
+
+.populaire .rating {
+  margin: 0px 0 0 10px;
+}
 }
