@@ -902,4 +902,11 @@ article h3 {
   .filtre {
     margin-right: 10px;
   }
+
+  .column_hotel h3 {
+    margin: 10px 0 4px 15px;
+  }
+  .populaire .rating {
+    margin: 20px 0 0 15px;
+  }
 }
